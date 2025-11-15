@@ -42,12 +42,13 @@ nav{
             font-size: 18px;
         }
     }
-}
-.hero_img{
-    img{
-        max-width: 450px;
+    .hero_img{
+        img{
+            max-width: 450px;
+        }
     }
 }
+
 /* _____shadow_____ */
 .shadow{
     width:  400px;
@@ -130,9 +131,11 @@ nav{
             font-size: 16px;
         }
     }
+    .hero_img {
         img{
             max-width: 358px;
-    }
+        }
+    } 
     button{
         max-width: 140px !important;
     }

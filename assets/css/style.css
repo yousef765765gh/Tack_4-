@@ -16,9 +16,7 @@
 .padding_x{
     padding: 48px 188px !important;
 }
-nav{
-    padding: 48px 188px 0 188px !important;
-}
+
 .case_t{
     text-transform:uppercase ;
 }
@@ -28,6 +26,11 @@ nav{
 .back_color{
     background-color: #F6F6F6 !important;
 }
+/* nav */
+nav{
+    padding: 48px 188px 0 188px !important;
+}
+/*_______ hero________ */
 .hero{
     padding: 97px 188px;
     .about_hero{
@@ -45,12 +48,14 @@ nav{
         max-width: 450px;
     }
 }
+/* _____shadow_____ */
 .shadow{
     width:  400px;
     height: 400px;
     background-color: #8EADD54D;
     filter: blur(306px);
 }
+/* ______first section_________ */
 .companies{
     p{
         color:  #667085;
@@ -59,12 +64,14 @@ nav{
         gap: 115px;
     }
 }
+/* _______secound & third________ */
 .section_style{
     gap: 20%;
     p{
         max-width: 370px;
     }
 }
+/* ________fourth section__________ */
 .Testimonial{
     h2{
         max-width: 435px;
@@ -89,12 +96,14 @@ nav{
         }
     }
 }
+/* _______fifth section________ */
 .contact{
     .contener{
         gap: 90px;
         padding: 0 75px;
     }
 }
+/* _______media_______ */
 @media screen and (max-width:992px) {
     .p_style{
     font-size: 14px;

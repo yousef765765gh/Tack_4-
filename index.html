@@ -12,6 +12,7 @@
 </head>
 <body>
     <header>
+        <!-- start navbar -->
         <nav class="navbar navbar-expand-lg  w-100 bg-white  ">
             <div class="container-fluid navbar-custom-padding">
                 <a class="navbar-brand fs-6 case_t " href="#">Digital Agency</a>
@@ -21,16 +22,16 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonials</a>
+                            <a class="nav-link" href="#Testimonial">Testimonials</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link " href="#" >
+                            <a class="nav-link " href="#contact" >
                                 contact
                             </a>
                         </li>
@@ -38,8 +39,10 @@
                 </div>
             </div>
         </nav>
+        <!-- end navbar -->
+        <!-- start hero -->
         <div class="shadow position-absolute top-0 start-0 translate-middle rounded-circle"></div>
-        <div class="hero  d-flex flex-column align-items-center flex-lg-row justify-content-lg-between">
+        <div id="home" class="hero  d-flex flex-column align-items-center flex-lg-row justify-content-lg-between">
             <div class="about_hero d-flex flex-column align-items-center align-items-lg-start text-center text-lg-start">
                 <h2 class="text-capitalize fw-bold font_color">Building digital products, brands & experience</h2>
                 <p class="text-capitalize py-3 font_color ">Digital Agency is your online team mangement tool that easy and prompt</p>
@@ -49,10 +52,11 @@
                 <img src="./assets/img/business-people-discussing-business-idea@2x (1).png" class="pt-5" alt="hero-img">
             </div>
         </div>
+        <!-- end hero -->
     </header>
     <main>
-        
-        <section class="companies  d-flex align-items-center flex-column text-center padding_x">
+        <!-- start first section -->
+        <section id="about" class="companies  d-flex align-items-center flex-column text-center padding_x">
             <p class="fw-light">Trusted by 4,000+ companies</p>
             <div class="comp back_color d-flex  rounded-3 p-4">
                 <img src="./assets/img/spotify.png" alt="spotify">
@@ -61,7 +65,10 @@
                 <img src="./assets/img/zoom.png" alt="zoom">
             </div>
         </section>
+        <!-- end first section -->
+        <!--to add shadow  -->
         <div class="shadow_section position-relative overflow-hidden w-100">
+            <!-- start secound section -->
             <section class="branding section_style padding_x  d-flex flex-column-reverse align-items-center flex-lg-row justify-content-lg-between text-center text-lg-start">
                 <img src="./assets/img/designer-team-working-on-creative-design.png" alt="section_1">
                 <div class="about_section d-flex flex-column align-items-center align-items-lg-start">
@@ -70,7 +77,9 @@
                     <img src="./assets/img/Arrow 1.png" alt="Arrow">
                 </div>
             </section>
+            <!-- end secound section -->
             <div class="shadow position-absolute z-n1 top-50 start-100 translate-middle rounded-circle"></div>
+            <!-- start third section -->
             <section class="custome section_style padding_x d-flex flex-column align-items-center flex-lg-row justify-content-lg-between text-center text-lg-start">
                 <div class="about_section d-flex flex-column align-items-center align-items-lg-start">
                     <h2 class="h2_style fw-bold pb-3 font_color">Custome & Plugin Development</h2>
@@ -79,8 +88,10 @@
                 </div>
                 <img src="./assets/img/businessman-analyzing-data.png" alt="section_2">
             </section>
+            <!-- end third section -->
         </div>
-<section class="Testimonial padding_x d-flex flex-column align-items-center">
+<!-- start fourth section -->
+<section id="Testimonial" class="Testimonial padding_x d-flex flex-column align-items-center">
     <p class="font_color">TESTIMONIALS</p>
     <h2 class="h2_style text-center fw-bold pb-3 font_color">Read What Other have to Say</h2>
 <div id="carouselExampleCaptions" class="carousel slide">
@@ -187,8 +198,10 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" class="btn-carousel mx-2 d-block d-lg-none rounded-circle" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
 </div>
-        </section>
-<section class="contact padding_x">
+</section>
+<!-- end fourth section  -->
+<!-- start fifth section -->
+<section id="contact" class="contact padding_x">
     <div class="contener back_color  d-flex justify-content-lg-between align-items-center rounded-3 py-4 text-center text-xl-start ">
         <img src="./assets/img/customer-support.png" class="d-none d-xl-block" alt="customer-support">
         <div class="about_contact w-100">
@@ -198,6 +211,8 @@
         </div>
     </div>
 </section>
+<!-- end fifth section -->
+<!-- start footer -->
 <footer class="padding_x back_color w-100">
     <div class="about_footer  d-flex  flex-column flex-lg-row justify-content-lg-between align-items-center align-items-lg-start text-center text-lg-start">
         <div class="logo py-4">
@@ -236,7 +251,9 @@
     </div>
     <p class="text-center p-4 pt-5 fw-light font_color ">© Matheus. Todos os direitos reservados</p>
 </footer>
+<!-- end footer -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+<!-- end project -->
